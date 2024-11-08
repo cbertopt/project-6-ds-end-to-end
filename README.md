@@ -1,4 +1,4 @@
-# Autism Spectrum Disorder Prediction Using Machine Learning
+# Autism Spectrum Disorder Prediction Using ML
 
 ## Overview
 This project aims to predict the risk of Autism Spectrum Disorder (ASD) using machine learning models. It involves multiple stages, including data preprocessing, model training, hyperparameter tuning, and deployment of the final model as a Streamlit application. The goal is to help identify potential signs of autism in children based on a questionnaire.
