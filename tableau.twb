@@ -1,0 +1,1633 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <Heatmap />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='train' inline='true' name='federated.1xzxbow08qhzut16naazm1owdc8i' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='train' name='textscan.1dmqer5180mksz1cmo4kw0dmf4na'>
+            <connection class='textscan' directory='C:/Users/falabella/GIT/project-6-ds-end-to-end/data' filename='train.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1dmqer5180mksz1cmo4kw0dmf4na' name='train.csv' table='[train#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='pt_PT'>
+            <column datatype='integer' name='ID' ordinal='0' />
+            <column datatype='integer' name='A1_Score' ordinal='1' />
+            <column datatype='integer' name='A2_Score' ordinal='2' />
+            <column datatype='integer' name='A3_Score' ordinal='3' />
+            <column datatype='integer' name='A4_Score' ordinal='4' />
+            <column datatype='integer' name='A5_Score' ordinal='5' />
+            <column datatype='integer' name='A6_Score' ordinal='6' />
+            <column datatype='integer' name='A7_Score' ordinal='7' />
+            <column datatype='integer' name='A8_Score' ordinal='8' />
+            <column datatype='integer' name='A9_Score' ordinal='9' />
+            <column datatype='integer' name='A10_Score' ordinal='10' />
+            <column datatype='real' name='age' ordinal='11' />
+            <column datatype='string' name='gender' ordinal='12' />
+            <column datatype='string' name='ethnicity' ordinal='13' />
+            <column datatype='string' name='jaundice' ordinal='14' />
+            <column datatype='string' name='austim' ordinal='15' />
+            <column datatype='string' name='contry_of_res' ordinal='16' />
+            <column datatype='string' name='used_app_before' ordinal='17' />
+            <column datatype='real' name='result' ordinal='18' />
+            <column datatype='string' name='age_desc' ordinal='19' />
+            <column datatype='string' name='relation' ordinal='20' />
+            <column datatype='integer' name='Class/ASD' ordinal='21' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;pt_PT&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;pt_PT&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A1_Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A1_Score]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>A1_Score</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A2_Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A2_Score]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>A2_Score</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A3_Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A3_Score]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>A3_Score</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A4_Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A4_Score]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>A4_Score</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A5_Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A5_Score]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>A5_Score</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A6_Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A6_Score]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>A6_Score</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A7_Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A7_Score]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>A7_Score</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A8_Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A8_Score]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>A8_Score</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A9_Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A9_Score]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>A9_Score</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A10_Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A10_Score]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>A10_Score</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RPT' />
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ethnicity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ethnicity]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>ethnicity</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RPT' />
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jaundice</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[jaundice]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>jaundice</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RPT' />
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>austim</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[austim]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>austim</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RPT' />
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contry_of_res</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contry_of_res]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>contry_of_res</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RPT' />
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>used_app_before</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[used_app_before]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>used_app_before</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RPT' />
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>result</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[result]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>result</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_desc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[age_desc]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>age_desc</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RPT' />
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>relation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[relation]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>relation</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RPT' />
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Class/ASD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Class/ASD]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>Class/ASD</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[train.csv_76849B8A6FC544C8B926613AA3898B02]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A1_Score:qk]&quot;' value='Q1' />
+          <alias key='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A10_Score:qk]&quot;' value='Q10' />
+          <alias key='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A2_Score:qk]&quot;' value='Q2' />
+          <alias key='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A3_Score:qk]&quot;' value='Q3' />
+          <alias key='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A4_Score:qk]&quot;' value='Q4' />
+          <alias key='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A5_Score:qk]&quot;' value='Q5' />
+          <alias key='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A6_Score:qk]&quot;' value='Q6' />
+          <alias key='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A7_Score:qk]&quot;' value='Q7' />
+          <alias key='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A8_Score:qk]&quot;' value='Q8' />
+          <alias key='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A9_Score:qk]&quot;' value='Q9' />
+        </aliases>
+      </column>
+      <column caption='A10 Score' datatype='integer' name='[A10_Score]' role='measure' type='quantitative' />
+      <column caption='A1 Score' datatype='integer' name='[A1_Score]' role='measure' type='quantitative' />
+      <column caption='A2 Score' datatype='integer' name='[A2_Score]' role='measure' type='quantitative' />
+      <column caption='A3 Score' datatype='integer' name='[A3_Score]' role='measure' type='quantitative' />
+      <column caption='A4 Score' datatype='integer' name='[A4_Score]' role='measure' type='quantitative' />
+      <column caption='A5 Score' datatype='integer' name='[A5_Score]' role='measure' type='quantitative' />
+      <column caption='A6 Score' datatype='integer' name='[A6_Score]' role='measure' type='quantitative' />
+      <column caption='A7 Score' datatype='integer' name='[A7_Score]' role='measure' type='quantitative' />
+      <column caption='A8 Score' datatype='integer' name='[A8_Score]' role='measure' type='quantitative' />
+      <column caption='A9 Score' datatype='integer' name='[A9_Score]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Age Bins' datatype='integer' name='[Calculation_655273758274347008]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='INT([age] / 10) * 10' />
+      </column>
+      <column caption='ASD Diagnosis' datatype='string' name='[Calculation_655273758276710401]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Class/ASD] = 0 THEN &quot;Non-Autistic&quot;&#13;&#10;ELSE &quot;Autistic&quot;&#13;&#10;END' />
+      </column>
+      <column aggregation='Sum' datatype='integer' name='[Class/ASD]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <column caption='train.csv' datatype='table' name='[__tableau_internal_object_id__].[train.csv_76849B8A6FC544C8B926613AA3898B02]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Age' datatype='real' name='[age]' role='dimension' type='quantitative' />
+      <column caption='Age Desc' datatype='string' name='[age_desc]' role='dimension' type='nominal' />
+      <column caption='Austim' datatype='string' name='[austim]' role='dimension' type='nominal' />
+      <column caption='Contry Of Res' datatype='string' name='[contry_of_res]' role='dimension' type='nominal' />
+      <column caption='Ethnicity' datatype='string' name='[ethnicity]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;others&quot;' value='Other' />
+          <alias key='&quot;White-European&quot;' value='White European' />
+        </aliases>
+      </column>
+      <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;f&quot;' value='female' />
+          <alias key='&quot;m&quot;' value='male' />
+        </aliases>
+      </column>
+      <column caption='Jaundice' datatype='string' name='[jaundice]' role='dimension' type='nominal' />
+      <column caption='Relation' datatype='string' name='[relation]' role='dimension' type='nominal' />
+      <column caption='Result' datatype='real' name='[result]' role='measure' type='quantitative' />
+      <column caption='Used App Before' datatype='string' name='[used_app_before]' role='dimension' type='nominal' />
+      <column-instance column='[__tableau_internal_object_id__].[train.csv_76849B8A6FC544C8B926613AA3898B02]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:train.csv_76849B8A6FC544C8B926613AA3898B02:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_655273758276710401]' derivation='None' name='[none:Calculation_655273758276710401:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Class/ASD]' derivation='None' name='[none:Class/ASD:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[age]' derivation='None' name='[none:age:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[austim]' derivation='None' name='[none:austim:nk]' pivot='key' type='nominal' />
+      <column-instance column='[result]' derivation='Sum' name='[pcto:sum:result:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[A10_Score]' derivation='Sum' name='[sum:A10_Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[A1_Score]' derivation='Sum' name='[sum:A1_Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[A2_Score]' derivation='Sum' name='[sum:A2_Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[A3_Score]' derivation='Sum' name='[sum:A3_Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[A4_Score]' derivation='Sum' name='[sum:A4_Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[A5_Score]' derivation='Sum' name='[sum:A5_Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[A6_Score]' derivation='Sum' name='[sum:A6_Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[A7_Score]' derivation='Sum' name='[sum:A7_Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[A8_Score]' derivation='Sum' name='[sum:A8_Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[A9_Score]' derivation='Sum' name='[sum:A9_Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Class/ASD]' derivation='Sum' name='[sum:Class/ASD:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[age]' derivation='Sum' name='[sum:age:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[result]' derivation='Sum' name='[sum:result:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:austim:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;no&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;yes&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A1_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A5_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A4_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:Class/ASD:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A9_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A7_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[__tableau_internal_object_id__].[cnt:train.csv_76849B8A6FC544C8B926613AA3898B02:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[none:age:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A10_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A3_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A6_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[pcto:sum:result:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A2_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:result:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:age:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A8_Score:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Class/ASD:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>1</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_655273758276710401:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Autista&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Non-Autistic&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Não Autista&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Autistic&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Portugal&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='ID' />
+        <field-sort-custom-order field='A1_Score' />
+        <field-sort-custom-order field='A2_Score' />
+        <field-sort-custom-order field='A3_Score' />
+        <field-sort-custom-order field='A4_Score' />
+        <field-sort-custom-order field='A5_Score' />
+        <field-sort-custom-order field='A6_Score' />
+        <field-sort-custom-order field='A7_Score' />
+        <field-sort-custom-order field='A8_Score' />
+        <field-sort-custom-order field='A9_Score' />
+        <field-sort-custom-order field='A10_Score' />
+        <field-sort-custom-order field='age' />
+        <field-sort-custom-order field='Calculation_655273758274347008' />
+        <field-sort-custom-order field='gender' />
+        <field-sort-custom-order field='ethnicity' />
+        <field-sort-custom-order field='jaundice' />
+        <field-sort-custom-order field='austim' />
+        <field-sort-custom-order field='contry_of_res' />
+        <field-sort-custom-order field='used_app_before' />
+        <field-sort-custom-order field='result' />
+        <field-sort-custom-order field='age_desc' />
+        <field-sort-custom-order field='relation' />
+        <field-sort-custom-order field='Class/ASD' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <object-graph>
+        <objects>
+          <object caption='train.csv' id='train.csv_76849B8A6FC544C8B926613AA3898B02'>
+            <properties context=''>
+              <relation connection='textscan.1dmqer5180mksz1cmo4kw0dmf4na' name='train.csv' table='[train#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='pt_PT'>
+                  <column datatype='integer' name='ID' ordinal='0' />
+                  <column datatype='integer' name='A1_Score' ordinal='1' />
+                  <column datatype='integer' name='A2_Score' ordinal='2' />
+                  <column datatype='integer' name='A3_Score' ordinal='3' />
+                  <column datatype='integer' name='A4_Score' ordinal='4' />
+                  <column datatype='integer' name='A5_Score' ordinal='5' />
+                  <column datatype='integer' name='A6_Score' ordinal='6' />
+                  <column datatype='integer' name='A7_Score' ordinal='7' />
+                  <column datatype='integer' name='A8_Score' ordinal='8' />
+                  <column datatype='integer' name='A9_Score' ordinal='9' />
+                  <column datatype='integer' name='A10_Score' ordinal='10' />
+                  <column datatype='real' name='age' ordinal='11' />
+                  <column datatype='string' name='gender' ordinal='12' />
+                  <column datatype='string' name='ethnicity' ordinal='13' />
+                  <column datatype='string' name='jaundice' ordinal='14' />
+                  <column datatype='string' name='austim' ordinal='15' />
+                  <column datatype='string' name='contry_of_res' ordinal='16' />
+                  <column datatype='string' name='used_app_before' ordinal='17' />
+                  <column datatype='real' name='result' ordinal='18' />
+                  <column datatype='string' name='age_desc' ordinal='19' />
+                  <column datatype='string' name='relation' ordinal='20' />
+                  <column datatype='integer' name='Class/ASD' ordinal='21' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Resaltado 2 (generado)' name='[Action2_C39FDA69AFCB46C8A2CEE3DDA2A1BB5F]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='3' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='ASD Diagnosis' />
+        <param name='target' value='3' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000'>1. How many users have autism?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='train' name='federated.1xzxbow08qhzut16naazm1owdc8i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xzxbow08qhzut16naazm1owdc8i'>
+            <column caption='Austim' datatype='string' name='[austim]' role='dimension' type='nominal' />
+            <column-instance column='[austim]' derivation='None' name='[none:austim:nk]' pivot='key' type='nominal' />
+            <column-instance column='[result]' derivation='Sum' name='[pcto:sum:result:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Result' datatype='real' name='[result]' role='measure' type='quantitative' />
+            <column-instance column='[result]' derivation='Sum' name='[sum:result:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1xzxbow08qhzut16naazm1owdc8i].[none:austim:nk]' value='Autism'>
+              <formatted-text>
+                <run>Autism</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1xzxbow08qhzut16naazm1owdc8i].[none:austim:nk]' />
+              <wedge-size column='[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:result:qk]' />
+              <size column='[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:result:qk]' />
+              <text column='[federated.1xzxbow08qhzut16naazm1owdc8i].[pcto:sum:result:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{86552814-546E-48FB-87C8-BA085B487BFF}' />
+    </worksheet>
+    <worksheet name='2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000'>2. What is the gender distribution among individuals with autism?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='train' name='federated.1xzxbow08qhzut16naazm1owdc8i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xzxbow08qhzut16naazm1owdc8i'>
+            <column caption='A10 Score' datatype='integer' name='[A10_Score]' role='measure' type='quantitative' />
+            <column caption='A1 Score' datatype='integer' name='[A1_Score]' role='measure' type='quantitative' />
+            <column caption='A2 Score' datatype='integer' name='[A2_Score]' role='measure' type='quantitative' />
+            <column caption='A3 Score' datatype='integer' name='[A3_Score]' role='measure' type='quantitative' />
+            <column caption='A4 Score' datatype='integer' name='[A4_Score]' role='measure' type='quantitative' />
+            <column caption='A5 Score' datatype='integer' name='[A5_Score]' role='measure' type='quantitative' />
+            <column caption='A6 Score' datatype='integer' name='[A6_Score]' role='measure' type='quantitative' />
+            <column caption='A7 Score' datatype='integer' name='[A7_Score]' role='measure' type='quantitative' />
+            <column caption='A8 Score' datatype='integer' name='[A8_Score]' role='measure' type='quantitative' />
+            <column caption='A9 Score' datatype='integer' name='[A9_Score]' role='measure' type='quantitative' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;f&quot;' value='female' />
+                <alias key='&quot;m&quot;' value='male' />
+              </aliases>
+            </column>
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[A10_Score]' derivation='Sum' name='[sum:A10_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A1_Score]' derivation='Sum' name='[sum:A1_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A2_Score]' derivation='Sum' name='[sum:A2_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A3_Score]' derivation='Sum' name='[sum:A3_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A4_Score]' derivation='Sum' name='[sum:A4_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A5_Score]' derivation='Sum' name='[sum:A5_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A6_Score]' derivation='Sum' name='[sum:A6_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A7_Score]' derivation='Sum' name='[sum:A7_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A8_Score]' derivation='Sum' name='[sum:A8_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A9_Score]' derivation='Sum' name='[sum:A9_Score:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1xzxbow08qhzut16naazm1owdc8i].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A1_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A2_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A3_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A4_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A5_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A6_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A7_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A8_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A9_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A10_Score:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1xzxbow08qhzut16naazm1owdc8i].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A1_Score:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A2_Score:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A3_Score:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A4_Score:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A5_Score:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A6_Score:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A7_Score:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A8_Score:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A9_Score:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A10_Score:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1xzxbow08qhzut16naazm1owdc8i].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1xzxbow08qhzut16naazm1owdc8i].[Multiple Values]' scope='rows' value='' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Heatmap' />
+            <encodings>
+              <lod column='[federated.1xzxbow08qhzut16naazm1owdc8i].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1xzxbow08qhzut16naazm1owdc8i].[Multiple Values]</rows>
+        <cols>([federated.1xzxbow08qhzut16naazm1owdc8i].[none:gender:nk] / [federated.1xzxbow08qhzut16naazm1owdc8i].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{BC8E79D5-A7EE-4D75-9E26-61B73597FD72}' />
+    </worksheet>
+    <worksheet name='3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000'>3. What is the average age of individuals with autism versus those without?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='train' name='federated.1xzxbow08qhzut16naazm1owdc8i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xzxbow08qhzut16naazm1owdc8i'>
+            <column aggregation='Sum' caption='Age Bins' datatype='integer' name='[Calculation_655273758274347008]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='INT([age] / 10) * 10' />
+            </column>
+            <column caption='ASD Diagnosis' datatype='string' name='[Calculation_655273758276710401]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Class/ASD] = 0 THEN &quot;Non-Autistic&quot;&#13;&#10;ELSE &quot;Autistic&quot;&#13;&#10;END' />
+            </column>
+            <column aggregation='Sum' datatype='integer' name='[Class/ASD]' role='dimension' type='ordinal' />
+            <column-instance column='[__tableau_internal_object_id__].[train.csv_76849B8A6FC544C8B926613AA3898B02]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:train.csv_76849B8A6FC544C8B926613AA3898B02:qk]' pivot='key' type='quantitative' />
+            <column caption='train.csv' datatype='table' name='[__tableau_internal_object_id__].[train.csv_76849B8A6FC544C8B926613AA3898B02]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='Age' datatype='real' name='[age]' role='dimension' type='quantitative' />
+            <column-instance column='[Calculation_655273758274347008]' derivation='None' name='[none:Calculation_655273758274347008:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_655273758276710401]' derivation='None' name='[none:Calculation_655273758276710401:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1xzxbow08qhzut16naazm1owdc8i].[__tableau_internal_object_id__].[cnt:train.csv_76849B8A6FC544C8B926613AA3898B02:qk]' scope='rows' value='' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1xzxbow08qhzut16naazm1owdc8i].[none:Calculation_655273758276710401:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1xzxbow08qhzut16naazm1owdc8i].[__tableau_internal_object_id__].[cnt:train.csv_76849B8A6FC544C8B926613AA3898B02:qk]</rows>
+        <cols>[federated.1xzxbow08qhzut16naazm1owdc8i].[none:Calculation_655273758274347008:ok]</cols>
+      </table>
+      <simple-id uuid='{228871FC-7656-4310-8196-A1BC46FAF4A9}' />
+    </worksheet>
+    <worksheet name='4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000'>4. What are the main ethnicities among individuals diagnosed with autism?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='train' name='federated.1xzxbow08qhzut16naazm1owdc8i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xzxbow08qhzut16naazm1owdc8i'>
+            <column caption='A10 Score' datatype='integer' name='[A10_Score]' role='measure' type='quantitative' />
+            <column caption='A1 Score' datatype='integer' name='[A1_Score]' role='measure' type='quantitative' />
+            <column caption='A2 Score' datatype='integer' name='[A2_Score]' role='measure' type='quantitative' />
+            <column caption='A3 Score' datatype='integer' name='[A3_Score]' role='measure' type='quantitative' />
+            <column caption='A4 Score' datatype='integer' name='[A4_Score]' role='measure' type='quantitative' />
+            <column caption='A5 Score' datatype='integer' name='[A5_Score]' role='measure' type='quantitative' />
+            <column caption='A6 Score' datatype='integer' name='[A6_Score]' role='measure' type='quantitative' />
+            <column caption='A7 Score' datatype='integer' name='[A7_Score]' role='measure' type='quantitative' />
+            <column caption='A8 Score' datatype='integer' name='[A8_Score]' role='measure' type='quantitative' />
+            <column caption='A9 Score' datatype='integer' name='[A9_Score]' role='measure' type='quantitative' />
+            <column caption='Ethnicity' datatype='string' name='[ethnicity]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;others&quot;' value='Other' />
+                <alias key='&quot;White-European&quot;' value='White European' />
+              </aliases>
+            </column>
+            <column-instance column='[ethnicity]' derivation='None' name='[none:ethnicity:nk]' pivot='key' type='nominal' />
+            <column-instance column='[A10_Score]' derivation='Sum' name='[sum:A10_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A1_Score]' derivation='Sum' name='[sum:A1_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A2_Score]' derivation='Sum' name='[sum:A2_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A3_Score]' derivation='Sum' name='[sum:A3_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A4_Score]' derivation='Sum' name='[sum:A4_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A5_Score]' derivation='Sum' name='[sum:A5_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A6_Score]' derivation='Sum' name='[sum:A6_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A7_Score]' derivation='Sum' name='[sum:A7_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A8_Score]' derivation='Sum' name='[sum:A8_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A9_Score]' derivation='Sum' name='[sum:A9_Score:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1xzxbow08qhzut16naazm1owdc8i].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A1_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A2_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A3_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A4_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A5_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A6_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A7_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A8_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A9_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A10_Score:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1xzxbow08qhzut16naazm1owdc8i].[none:ethnicity:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:ethnicity:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:ethnicity:nk]' member='&quot;?&quot;' />
+                <groupfilter function='member' level='[none:ethnicity:nk]' member='&quot;others&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1xzxbow08qhzut16naazm1owdc8i].[none:ethnicity:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Asian&quot;</bucket>
+              <bucket>&quot;Black&quot;</bucket>
+              <bucket>&quot;Hispanic&quot;</bucket>
+              <bucket>&quot;Latino&quot;</bucket>
+              <bucket>&quot;Middle Eastern&quot;</bucket>
+              <bucket>&quot;Pasifika&quot;</bucket>
+              <bucket>&quot;South Asian&quot;</bucket>
+              <bucket>&quot;Turkish&quot;</bucket>
+              <bucket>&quot;White-European&quot;</bucket>
+              <bucket>&quot;Others&quot;</bucket>
+              <bucket>&quot;others&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1xzxbow08qhzut16naazm1owdc8i].[:Measure Names]</column>
+            <column>[federated.1xzxbow08qhzut16naazm1owdc8i].[none:ethnicity:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1xzxbow08qhzut16naazm1owdc8i].[Multiple Values]' scope='rows' value='' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#a0cbe8' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1xzxbow08qhzut16naazm1owdc8i].[Multiple Values]</rows>
+        <cols>[federated.1xzxbow08qhzut16naazm1owdc8i].[none:ethnicity:nk]</cols>
+      </table>
+      <simple-id uuid='{B402F2B5-B65B-43F2-B62A-DC24B78D76B4}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='ASD Data Analysis'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000'>&lt;</run>
+            <run bold='true' fontalignment='1' fontcolor='#000000'>Sheet Name</run>
+            <run bold='true' fontalignment='1' fontcolor='#000000'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='1100' maxwidth='1800' minheight='1100' minwidth='1800' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98546' id='14' param='vert' type-v2='layout-flow' w='99112' x='444' y='727'>
+            <zone h='3727' id='15' type-v2='title' w='99112' x='444' y='727'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='94819' id='7' param='horz' type-v2='layout-flow' w='99112' x='444' y='4454'>
+              <zone h='94819' id='5' type-v2='layout-basic' w='90223' x='444' y='4454'>
+                <zone h='47409' id='3' name='2' w='45112' x='45555' y='4454'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='47410' id='9' name='4' w='45114' x='45553' y='51863'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='47410' id='11' name='3' w='45109' x='444' y='51863'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='47409' id='16' name='1' w='45111' x='444' y='4454'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='94819' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='8889' x='90667' y='4454'>
+                <zone h='2000' id='8' name='2' pane-specification-id='0' param='[federated.1xzxbow08qhzut16naazm1owdc8i].[:Measure Names]' type-v2='color' w='8889' x='90667' y='4454'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='5273' id='12' name='3' pane-specification-id='3' param='[federated.1xzxbow08qhzut16naazm1owdc8i].[none:Calculation_655273758276710401:nk]' type-v2='color' w='7778' x='36611' y='60182' />
+        <zone h='5273' id='18' name='1' pane-specification-id='0' param='[federated.1xzxbow08qhzut16naazm1owdc8i].[none:austim:nk]' type-v2='color' w='7778' x='35722' y='15636' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#000000'>&lt;</run>
+                <run bold='true' fontalignment='1' fontcolor='#000000'>Sheet Name</run>
+                <run bold='true' fontalignment='1' fontcolor='#000000'>&gt;</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1450' minheight='1450' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='22' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98546' id='21' param='vert' type-v2='layout-flow' w='99112' x='444' y='727'>
+                <zone h='3727' id='15' type-v2='title' w='99112' x='444' y='727'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47409' id='16' is-fixed='true' name='1' w='45111' x='444' y='4454'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5273' id='18' name='1' pane-specification-id='0' param='[federated.1xzxbow08qhzut16naazm1owdc8i].[none:austim:nk]' type-v2='color' w='7778' x='35722' y='15636'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47409' id='3' is-fixed='true' name='2' w='45112' x='45555' y='4454'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='2000' id='8' name='2' pane-specification-id='0' param='[federated.1xzxbow08qhzut16naazm1owdc8i].[:Measure Names]' type-v2='color' w='8889' x='90667' y='4454'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47410' id='11' is-fixed='true' name='3' w='45109' x='444' y='51863'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5273' id='12' name='3' pane-specification-id='3' param='[federated.1xzxbow08qhzut16naazm1owdc8i].[none:Calculation_655273758276710401:nk]' type-v2='color' w='7778' x='36611' y='60182'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47410' id='9' is-fixed='true' name='4' w='45114' x='45553' y='51863'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{D5757062-9054-4073-960A-62AD00A7092F}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:result:qk]' type='size' />
+            <card pane-specification-id='0' param='[federated.1xzxbow08qhzut16naazm1owdc8i].[none:austim:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1xzxbow08qhzut16naazm1owdc8i].[:Measure Names]</field>
+            <field>[federated.1xzxbow08qhzut16naazm1owdc8i].[Multiple Values]</field>
+            <field>[federated.1xzxbow08qhzut16naazm1owdc8i].[none:age_desc:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{813638C3-ABA7-4BDF-8BFF-ED386CF04EF4}' />
+    </window>
+    <window class='worksheet' name='2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1xzxbow08qhzut16naazm1owdc8i].[:Measure Names]</field>
+            <field>[federated.1xzxbow08qhzut16naazm1owdc8i].[none:age_desc:nk]</field>
+            <field>[federated.1xzxbow08qhzut16naazm1owdc8i].[none:austim:nk]</field>
+            <field>[federated.1xzxbow08qhzut16naazm1owdc8i].[none:gender:nk]</field>
+            <field>[federated.1xzxbow08qhzut16naazm1owdc8i].[sum:A1_Score:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CDF5A8FD-9708-4546-9E08-C740DB9407D5}' />
+    </window>
+    <window class='worksheet' name='3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='3' param='[federated.1xzxbow08qhzut16naazm1owdc8i].[none:Calculation_655273758276710401:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1xzxbow08qhzut16naazm1owdc8i].[none:Calculation_655273758274347008:ok]</field>
+            <field>[federated.1xzxbow08qhzut16naazm1owdc8i].[none:ID:ok]</field>
+            <field>[federated.1xzxbow08qhzut16naazm1owdc8i].[none:age:ok]</field>
+            <field>[federated.1xzxbow08qhzut16naazm1owdc8i].[none:age:qk]</field>
+            <field>[federated.1xzxbow08qhzut16naazm1owdc8i].[none:age_desc:nk]</field>
+            <field>[federated.1xzxbow08qhzut16naazm1owdc8i].[none:austim:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{35C45599-5D03-4091-B580-25ACCE31EB2F}' />
+    </window>
+    <window class='worksheet' maximized='true' name='4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1xzxbow08qhzut16naazm1owdc8i].[:Measure Names]</field>
+            <field>[federated.1xzxbow08qhzut16naazm1owdc8i].[none:ethnicity:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7AB24614-0F77-42C2-8BDD-581E9415064D}' />
+    </window>
+    <window class='dashboard' name='ASD Data Analysis'>
+      <viewpoints>
+        <viewpoint name='1'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.1xzxbow08qhzut16naazm1owdc8i].[none:austim:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='2'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.1xzxbow08qhzut16naazm1owdc8i].[:Measure Names]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='3'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.1xzxbow08qhzut16naazm1owdc8i].[none:Calculation_655273758276710401:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='4'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <device-preview visible='true' />
+      <simple-id uuid='{C142EB02-35DF-483F-B06A-FA62CF855B52}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAATlUlEQVR4nO3d6XMbyXnH8W/3XAAGAAkSPCWtVpK9Pta7rjh2VVKuvEjyp6cqbxLH5fUq
+      a2d3pdVNUiQB4hjM2Z0X4IKSqIPUEsSQ83yqVMWS2JqW2D/M9MzTPcpaaxGiovRZvkkyIuah
+      DOPqTAEYjUbz7oeooDKMqzMFQLxdkcY8eb7z1j8z6YTBOLnkHonzchfdgaust79L73DI/T//
+      mU9//nPiyZh62CIb7IIf4tca/Me3D/nXf/83Gr6z6O6Kt5AA/ATN5VVuBg0c5dJqt1nrrgCW
+      gyxCOxrP97lz5w6uVovuqngHZafe+03D4ZBWq3VJXRJVUYZxNTsDvG9CMplMUEo+xcTFKsO4
+      cgGUUh9M4qKTKq6nRY8ruQskKk0CICpNAiAqTQIgKk0CICptdht00Nvn+f6AbrvGIDYEpLjN
+      FTZWlxfZPyHmahaARqPBeLzD3ZsbTPIBhoA0GmI6bYqiIM/zRfZTXENlGFcnD8KGQzzX4fGT
+      xzi1NjYZ4oUraK1xHAfXlaoJcbHKMK5mR1/ubrDc3VhkX4S4dDIJFpUmARCVJgEQlSYBEJUm
+      ARCVJgEQlSYBEJX2WinEg6d7rLVrjDKFU0zwwhVu39xcZP+EmKuTUoh6HVMYCsejoQzoNtgU
+      Y0wpHlmL66cM4+qkFGI8Jmw2aQYeUa5x8givKaUQYn7KMK5OSiFW11lenX69sqjeCHHJZBIs
+      Kk0CICpNAiAqTQIgKk1u7YjSsdZigR/3jJvn7nESAFEa1lqSwvKgl7A/znC04mbb52bbx5nT
+      BsOzAFhjyIoCVysKq1AYlHbndmAh3pQb+NPzMTvDhLyYbti8N0qJsga/7NbmciaYBWA87PP3
+      h89o1zRRrgl0gVdvc/fTW9NTUgleZyOulzfH1c4oZXeYEqcFaW7QCqx1eHAY88mST8O7+Cnr
+      LABZlrG1tUV0tIc1Br9RR2FmnTTGXPjBRbW9Oa4GSU5hLYWxpFmOVgrH0aSFIUoLamd4x0hh
+      LWlh0YDvaD500pgFwPN9Bv2Ire0bxLnCI8ert9Faz8ohhLhIb46r0HfRSqG1wnMdlFI4SuFq
+      Rc1z3jsGrbX04oL7exGDuEBr2Gz6/HqtTuC++8wxC0Cz3aHZ7kw7chH/OiHOabPp0am7GGtx
+      tEKh8FzNzaWA0H//5U+UGf7r2YijSU5eGJSCKC0ojOV32yH6HacCuQskSiNwFH+40eRv+xMO
+      JzmOgu2Wz89Xa+8cwD96McoYxjlpVpBkxfH8weXFMGWc1mkFbz97SABEaSilaAUOv98OyQ0o
+      BY4623OAJDdYC4Wx5EWB1hrfWnJjycy7b+BIAETpKKXwzjnlXKq5OM70ksnizibQdU9TP8sc
+      QIirbLPpcaMd8OwowXWm84fA03zWrVNz330GkQCIa8HVit9tNeg2XPajHFcrbrR91kP3vZdQ
+      EgBxbXiO5t5KjXvnWNE1C0A6GfF8f8DmSpODYUJN53hhh3ZYm0dfhSiFk1og5VBkCd9/v0O7
+      e4NRmmGjHZr1T0qxeFlcP2UYV7MAvHzxmHGsWWq1OTjYp6YLfFkUL+aoDONqdvSbd37BzeOv
+      by+oM0JcNlkRJipNAiAqTQIgKk0CICpNAiAqTQIgKk0CICpt9hxg2N/nyW6fX967xcPHO/g6
+      wwtX2FyTrXLF9XXyfoCwSaOe8PiHR8S5wW+1yOIxxiyX4pG1uH7KMK5mAdjdeUGSWFY7y0wO
+      jijiEV64KqUQYm7KMK5mR9++dWf2m93u+kI6I8Rlk0mwqDQJgKg0CYCoNAmAqDQJgKg0CYCo
+      NAmAqLSTUojePt8+2eWTjQ67vTE+KV7Y4dNb24vsnxBzNQuA43lsbWzgebCx3iAaD8HmGGNK
+      8chaXD9lGFezAEyiiOEgxtQVqfFouEgphJirMoyr2dFX17dYlQoIUTEyCRaVJgEQlSYBEJUm
+      ARCVJgEQlSYBEJUmARCVdqoUYq0dME412kT44YqUQohr7VQpRJ5GNAIDeglsJqUQYm7KMK5m
+      AYiPSyHWV5tMco3OI/xmV0ohxNyUYVzNjr6yvsXKcSnEMgCrC+mQEJdJJsGi0iQAotIkAKLS
+      ZGYr5sJai7HTr7XivW9rXyQJgLhwk8zw7WHM/jjD0Yrtls+dToCryxcCCYC4UFlh+e/nI3aH
+      KXlhUQoOxhmTzPDFRr10Z4KTN8WbgjQr0BhSA44t0H4N33UW2T9xxeyOM16OMpJsOp6UUhjf
+      4VE/5s5KQMsv13h6ZU3wmJe9IVl0RJRp6j5or87dTz+ZXs8Zs8h+iitilOQYaymMJc0LtFK4
+      riYzlklaELonZwBjzMLH1UkphOsyGY/RylKYAqVcFNPJjLV2gV0UV0nDd9BK4WiF7zqo469d
+      rai55bvpeDIHsJZud5Vms05eKBwKnKCO1nr2S4gP2Wx6dJsee0OLozVKgedobi8HtALntTlA
+      GcbVLABBPSSoh2duaKxlP8rZGWUYY+mGHltND6eEM31xeXxH8/vtJt8eTNiPchwF222fu51a
+      6SbA8JF3gay1POwl3N+LSLLpNdzDXszdlRpfbDTQJfyHisvT8DRfbjQoLCjK/Rzgo84/k9zw
+      9/0JUVIwSXOiJCdOCx72Yg4iKZsW0wHv6un1f1kHP3xkAEapIc4MuTEkaU6S5mSFIS8s/bi4
+      6D4KMTcfdQnkaoXWTGf7jsZai1bTpHtOedMuxJs+KgDtwKEbeuwUdvZXuI6iFThshN5F9k+I
+      ufroM8A/bIb8VSn2owxroV1z+c16g7ont0vF1TELQDIZM4pzao6hN87xSfDCDp3222+Nhr7D
+      H240iXODsVD3dCmLnYR4n1kAtOuRxEN2918QdjaIrWXS22epWX/v4uXgxw98U5BLtYQ4h3It
+      ih8PePrkOZubHfpHA2o6x2+uzGVRvLWWSW45nORYa1muuTR9XerbZeLilWFRvLJnKPQZDoe0
+      Wq0LOaC1lt1xxl92IkbJ9JZp3dP8er3B7SVfQlAhFzmuPtalxy8pLF/tRBxFGWlusEBeaO7v
+      RqzUXdpBucplxfV26QEYJAWjtCAtDHGaH1eaesS64CDKJADiUi1+RdiPlzxy5TMXubFMMgMK
+      Gq6WYsU3XHoA2oFDK3DICzM9vAXP1dQ8h9WGPES7SAdRztd7EUdxjgJWGx5fbDRonfEsa629
+      EgVtP8WlByBwFF9uhvzlxZhRUmCZToI/32jQ8uUh2kWZZIb/eTGiF2XkxfQ+R5wbcmP551ut
+      D5asRJmZlTRrBVstn3udAM+5Xj+jSw+AUor1hsu/3G7Ti3OMheWaQ+jJbdCL9DLKGMQFaWZI
+      shxQWOtwEGUcJTnd95xts8Lwp1cWtqOgF+VMMsNvN69XuftC5gBKKeqeou75izh8JWSFnS1n
+      LYxFYbHWwVo++MByb5yfWthuPYcnRwl3V2osXaMbFbMAjAd9+lHG5mqT7x7tUFMZbnOFGxvd
+      RfZPfKTlmoPnaDJXE1gXpcB1NIGnP3ipOc7MKwvbDfq4bV7Y6QKo6xiAsL3EYLzLd99+zzgz
+      NLqrmHRSyvcDFHZ6jWuxNFyHa3ZZeiHanuJOJ+BBz+Ier7sNPM1nKwGBtu/9edYd0MeLWXzP
+      QcF0Ybuj8D7Q9jzKMK5O3hDTP2Bv74A79z6h3zvCphO8cD6lED/FICn4ajeiF2VYYKnm8sVG
+      g5V6OfpXJp+vO6yFHnvjDK0Um02P1Yb7wWv4zZbDRjNjx1gcR6M4Wdi+VPcubA5QhnF16aUQ
+      P0VWGP7zyYi9YUpWTC9kXUex0vD44+029RJuu3FVxbnhu8OYl8fhmcf2hmUYV1fqY7MXFxxG
+      GWleEKcFYAl8l0FcsD/OuLUULLqL10bN1Xy+Vsd064A8ByiF3Ex3HLZ2uquYBayxGGulFHsO
+      lFJc9xWuVyoArcCh5mqyXBP4x0sxXY3vapZq1+fOhLg8V+qiuelpPlur0wgc6oFL3Xep+w73
+      VmosSwDER7hSZwClFPc6AcuBw85oehdoPXRZDy/uzoSolisVAJhuxbIWeqxVZPeJwliej1L2
+      RjlKwVbTY6Mpgb8oVy4AVWKs5f7LCd8fTMgKiwIe9xN+uVbnF6vl3GvzqnmtFGKvP6YVKF4c
+      DPFJ8cIV7t6+scj+lYa1llFmODze+nGl4dKccwFfb1Lw8DAmTgvS49tcgdF8dzBhu+XL4qEL
+      8FopRG0c47iaG9tbDAd9sHkpSyF+inFqOJgcD+L6dDH+WTwdZPzvfjxdXMLxOuZujZvt+V2K
+      9SfZ8ZaT04rOaUmCR5JbBnFGw7na720ow7h6rRSi3x/SbgekRUYrcEpZCvGxrLU8G2b8dWdM
+      lBnAUvccPl9v8MkHFuOP0oJv9mOGcT77JM4LzTf7Md2mT3NOr/0JPDPdclKr2V77Sk0fSgXu
+      1f+ZlGFczY7eWu7yq+XrW/k5yQ1f744ZvDaILff3povx37dKqh8XRJkhy6frmAEULlFm6MfF
+      3AKw1nBZrrsU5njvVaar57qhx3Ltag/+sqjM/2I/Lhinrw9icJlkhl6cvzcAipMly+odvz8P
+      gav5x+2Qr/cm9CbHyxrD6RaUsgnxxahMAGaDVZ0ezB8aSp26Q+g70wI8Nf0v8xxN6Dt06vOd
+      iC7VXP7p5nQLSqUUNVfJLdALVJkALNdcmj8uxg9OFuOHvv5gKXXd1Xy52eCr3Yjx8WZeYeDw
+      5UbjUipQHa0IS/Z60euiMgGoudPF+F/tjGc70oW+wxebDRof2NFaHdfSL9fa9OPp5dNyzaXm
+      lvvtJ+LDrtR6gJ/KWkucW/pJDnZ6eVGXQbwwZRhXlTkDgCzGF6fNAmCKnEma46mCONdok+DW
+      mtT8SmVEVMzJ9uhxzGFvQJHF5IVFKYvSfT69/cnsabAQF6kM42oWAGUNB/uHtFoBWQHaprjB
+      9AmpUmrhb/QW108ZxtUsAF5Q42c/u0Ot5mOsQtkC5XizAMhEUVy0MoyrWQBcz6f52uRQrv3F
+      9Sej/BJYaxmmx6XUClbr8kqospAAzJm1lkdHKfd3I+L8x1dCOXyx0eBmW14JtWgSgDkbpYb7
+      exGj5PUq1K+Pq1ClxGGxJABz1otz4syQ5oY4yUCpaSl1ajhKCgnAgkkA5uzVitPZ5Y6afym1
+      OBsJwJz9eJmTv1JK7buaZuDIopYSOPUTOHy5wyhV+DbGa66wunz1i+AWqeFpfvtqKbWa7nD3
+      5UZIzZVzwKKdCkC/3yfKFEvtkHTQo9MOS7F4+Spbq2v+eDPkKJmu6lqquQSOWngZwKKVYVyd
+      CoCjNShIxoNrtSh+0ZouNGvV2MzrrMowrk4d/fa9zxbRDyEWQircRKVJAESlSQBEpUkARKVJ
+      AESlSQBEpUkARKWdeg4w6O0ziA1OMcELO3Q77UX0S4hLcSoAT58+pd7uYh2HfNTHLDVL8cha
+      XD9lGFenAtDpdDgcTQhUhteUUggxP2UYV6eOvnXzNluL6IkQCyCTYFFpEgBRaRIAUWkSAFFp
+      EgBRaRIAUWkSAFFpp54D5MmY//thh5rO8MIVbm2vL6JfQlyKNwJg+eabvzFOLa0bW1Aks5cY
+      LPqRtbh+yjCuTp0BfvWbL+n3j4jHAymFEHNVhnH1xtEVruvR7Xah211Mj4S4RDIJFpUmARCV
+      JgEQlSYBEJUmARCVJgEQlSYBEJV26inE/u5znr08wifFC1f42Z1bi+iXEJfiVACU1ty+fYv+
+      4QHYQkohxNyUYVydCkCR5wx6Ryw1AnwphRBzVIZxdero61s3F9EPIRZCJsGi0iQAotIkAKLS
+      JACi0t4RAMvzxw/ZOzy63N4IccneGgBrodA+yXhw2f0R4lK9NQAKSKMB1vEvuTtCXC5lpxiN
+      Ru/8piRJpsskP4K1FqWUtJW2pwyHQ1qt1qUf99W2LoBS6qM7cp6DSVtpe1EuNAAfa/f5E8aZ
+      phN6KD9kuR2e+h6t3z7P3nn2mEnh0vQN48zh01un30rwrrYvnj4isT51JyexHp/c2DxH2x9I
+      CbixvszO/oCb2xtnbvv8yUNyXcezMdZrsb2xeua2zx4/xLgNairDeCEb3c6Z2z599AD8JjYZ
+      kKkad2+fflr/rrZPfvgeXWtjkyFOfZmt9ZUzt3388DvcxjJ51KexvP7W12W9re3zJz+Q6xqh
+      k+K1t+m9eEB77SadduOtx3mVtZZHD76l1u5SjI5Yu3OHt12Iv+241hp+ePAdjXaXeHRIvd1l
+      fXX5vW0//jaoNSS5wqeg2VklicfnaFuQFg6ezWkuLeM65+iGzcmsh2syao064/F5jpuS2QBd
+      ZLzY2SNNJ2dvaxJyGqg8ZTiKMKY4R9uYQoWQJTx78YI0Tc/RdoJxWpg0ZnNzg3r99IfMu9uO
+      se4yRTJhOBy89zL3lGIE3gp5HDGZTNjZ2Tlz09xqKBJWOiHjSYzjLzE6OjhTW5sPcOsbJNGI
+      Vq1GdvYek6cDguYmcTSi0+lwlvPDTzgDKChinvfG+L5mrzdmY/2su8hpbB7x4ihiMhnihac/
+      ld7NwaQj9oYxWhu0ds7R1qNIBhyOEtaWQgaj5OxNlU8e9+hHOVurTaLkPG0Dsskhg7hgbWWF
+      OD1f23T8A6PU0mjUWO+unaNtnWT0iChXNFwP5zwfNLpBPHxEbBxWWyHWO/slcp5E9KMcn5jD
+      JMRND2mvn63GTLlNxv1vyJRPNjjEd3zC9dNn2rdxvSaDg7+RK4+j3j6bt+5+sM3/A3hrR+0a
+      ZHOhAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='3' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='4' width='192'>
+      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
+      jnceRAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='ASD Data Analysis' width='192'>
+      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
+      gg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
